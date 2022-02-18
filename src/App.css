@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  box-sizing:border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +38,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input[type="text"],textarea,.add-note{
+ width:100%;
+ margin-bottom:25px;
+ padding:10px;
+ border-radius: 10px;
+ border:none;
+}
+
+form,.note-list{
+  
+  padding:30px;
+ 
+}
+.note-list{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:50px;
+}
+form{
+  background-color: #ccc;
+  padding-top: 80px;
+}
+.add-note{
+
+  padding: 10px;
+  border:none;
+  background-color: #282c34;
+  color:white;
+  width:100%;
+  cursor: pointer;
+  
+}
+.create-session{
+  padding: 10px;
+  border:none;
+  background-color: #282c34;
+  color:white;
+  cursor: pointer;
+}
+.note-list{
+  width: 70%;
+  margin-top: 80px;
+}
+form{
+  position: fixed;
+  margin-top: 80px;
+  height: 100vh;
+  width: 30%;
+ 
+}
+textarea{
+  height:120px;
+}
+.note{
+  border:1px solid #ccc;
+  box-shadow: 5px 5px 9px 9px #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.btn-cont{
+  text-align: right;
+}
+.delete-btn{
+  padding: 10px 16px;
+  border:none;
+  background-color: red;
+  border-radius: 10px;
+  color:white;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  position: fixed;
+  width:100%;
+  background-color:yellow;
+  height:80px;
+  padding:20px;
+  display: flex;
+  justify-content: space-between;
 }
