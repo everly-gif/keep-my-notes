@@ -2,7 +2,7 @@
 
 A Simple Note taking app made with React Js and Appwrite (Database API)
 
-<img src="https://user-images.githubusercontent.com/77877486/154707786-a7138840-8931-4252-b7ef-6d25cf8febd4.jpeg" width=80%>
+<img src="https://user-images.githubusercontent.com/77877486/154707786-a7138840-8931-4252-b7ef-6d25cf8febd4.jpeg" >
 
 
 
